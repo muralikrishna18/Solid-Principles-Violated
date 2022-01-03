@@ -15,6 +15,10 @@ public class Book extends EVersions{
         this.isbn = isbn;
     }
 
+    public void digitalGraphic(){
+        throw new RuntimeException();
+
+    }
 
 
 

@@ -11,6 +11,10 @@ public class BookStore {
         BuyBook buy =new BuyBook(b,db);
         GraphicBook g = new GraphicBook("Name","authorName",1998,123,"iso1992-564");
 
+        EVersions e = b;
+        e.digitalGraphic();
+
+
     }
 
 

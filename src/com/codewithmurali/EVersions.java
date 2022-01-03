@@ -2,22 +2,23 @@ package com.codewithmurali;
 
 public class EVersions {
 
-    Book book;
+
     public void getPdf()
     {
-        //return book;
+        //return ;
     }
-    public Book mobi(){
+    public void mobi(){
         System.out.println("makes it mobi");
-        return  book;
+        //return  book;
     }
-    public Book epub()
+    public void epub()
     {
         System.out.println("makes it mobi");
-        return book;
+        //return ;
     }
-     Book digitalGraphic(){
+     public void digitalGraphic(){
 
-        return book;
+        //return book;
+         System.out.println("makes a book digital");
     }
 }
